@@ -1,0 +1,12 @@
+// ejemplos de mixins
+@mixin  layoutPrincpal {
+  max-width:  80%;
+  margin:  0 10%;
+}
+
+@mixin  parametro( $maxwitch ) {
+  max-width:  $maxwitch ;
+  margin-top: 80px;  
+}
+
+

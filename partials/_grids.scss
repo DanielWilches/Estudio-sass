@@ -1,0 +1,12 @@
+.container {
+    @include layoutPrincpal;
+    background-color: $color-grey;
+    padding: $padding_base;
+}
+
+.header {
+    @include parametro ( 90% );
+    background-color: blueviolet;
+}
+
+

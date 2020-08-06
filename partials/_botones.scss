@@ -1,0 +1,20 @@
+/*--------------_botones_----------*/
+.btn {
+    transition: 1s;
+    display: inline-block;
+    color: $buttoncolor;
+    background-color: $buttonbackgroundcolor;
+    line-height: 2.5%;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    outline: none;
+    /*-------_ejemplo anidacion_----------*/
+    &:hover {
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        border: none;
+        background-color: blue;
+        transition: 1s;
+    }
+}

@@ -1,0 +1,39 @@
+/*---------- $COLORS -----------*/
+/*--------------_botones_----------*/
+.btn {
+  transition: 1s;
+  display: inline-block;
+  color: black;
+  background-color: #ea83ee;
+  line-height: 2.5%;
+  border-radius: 10px;
+  width: 20%;
+  height: 10%;
+  outline: none;
+  /*-------_ejemplo anidacion_----------*/
+}
+.btn:hover {
+  color: white;
+  cursor: pointer;
+  border: none;
+  background-color: blue;
+  transition: 1s;
+}
+
+.tabla {
+  background-color: #dbd879;
+  color: white;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 10%;
+  background-color: #bfbfbf;
+  padding: 24px;
+}
+
+.header {
+  max-width: 90%;
+  margin-top: 80px;
+  background-color: blueviolet;
+}
